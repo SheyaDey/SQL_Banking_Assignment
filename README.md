@@ -1,6 +1,6 @@
 # SQL_Banking_Assignment
 Description
-This repository contains SQL scripts for managing and analyzing a banking dataset. The dataset models a simple banking system with tables for products, employees, customers, accounts, transactions, and customer-account relationships. The assignment demonstrates creating tables, inserting data, and performing data analysis with SQL.
+This repository contains SQL scripts for managing and analyzing a banking dataset. The dataset models a simple banking system with tables for products, employees, customers, accounts, transactions, and customer-account relationships. The assignment demonstrates  performing data analysis with SQL.
 
 Dataset Overview
 The dataset is composed of the following tables:
@@ -41,12 +41,3 @@ Customer_Accounts: Mapping between customers and their accounts.
 Customer_ID (VARCHAR): Foreign key linking to the Customers table.
 Account_No (BIGINT): Foreign key linking to the Accounts table.
 prod_id (VARCHAR): Foreign key linking to the Products table.
-SQL Scripts
-The repository includes the following SQL scripts:
-
-create_tables.sql: Creates the tables Products, Employees, Customers, Accounts, Transactions, and Customer_Accounts.
-insert_data.sql: Inserts sample data into the tables.
-queries.sql: Contains queries for analyzing the data. Examples include:
-Total balance of all accounts.
-Recent transactions for specific accounts.
-Customers associated with particular products.
